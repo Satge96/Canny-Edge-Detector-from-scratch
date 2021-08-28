@@ -78,7 +78,7 @@ def getMagnitude(Gx, Gy, height, width):
     return gradientData
 
 
-def getAngle(Gx, Gy, height, width):
+def getAngle(Gy, Gx, height, width):
     """
     Computes the edge angle by taking the tan inverse of yGradient/xGradient
     :param Gx:
